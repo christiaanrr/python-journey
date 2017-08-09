@@ -10,7 +10,7 @@
 
 
 
-##Solution##
+## Solution ##
 s = 'azcbobobegghakl'
 vowels = 0
 

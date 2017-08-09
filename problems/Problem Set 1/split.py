@@ -10,7 +10,7 @@
 
 
 
-##Solution##
+## Solution ##
 s = 'azcbobobegghakl'
 count = 0
 for letter in range(len(s)):
