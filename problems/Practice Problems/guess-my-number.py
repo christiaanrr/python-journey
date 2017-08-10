@@ -40,6 +40,8 @@ while guess != number:
         high = guess
     elif indicate == 'l':
         low = guess
+    else:
+        print('Sorry, I did not understand your input.')
     guess = (high + low) // 2
 
 if guess == number:
