@@ -10,7 +10,7 @@
 # then your program should print: Longest substring in alphabetical order is: abc
 
 
-## Solution ##
+# Solution #
 s = 'azcbobobegghakl'
 # longest substring that is alphabetically ordered (makes sure atleast first letter is printed)
 longest= s[0]
