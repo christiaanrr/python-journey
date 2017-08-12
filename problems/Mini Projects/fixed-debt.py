@@ -28,7 +28,8 @@ def fixedPayment(balance, annualInterestRate):
         lowestPay += 10
         bal = balance
         for i in range(1, 13):
-            newBalance = bal - lowestPay
-            interest = newBalance * (annualInterestRate / 12)
-            bal = newBalance + interest
+            unpaidBalance = bal - lowestPay
+            interest = unpaidBalance * (annualInterestRate / 12)
+            newBalance = unpaidBalance + interest
+            bal = newBalance
     print('Lowest Payment: ' + str(round(lowestPay, 2)))
