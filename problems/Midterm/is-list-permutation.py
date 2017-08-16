@@ -28,13 +28,13 @@ def is_list_permutation(L1, L2):
     max_thing = None
     max_count = 0
     dictList = {}
-    for i in L1:
-        dictList[i] = dictList.get(i, 0) + 1
-        if dictList[i] > max_count:
+    for stuff in L1:
+        dictList[stuff] = dictList.get(stuff, 0) + 1
+        if dictList[stuff] > max_count:
             max_count += 1
-            max_thing = i
-    for i in L2:
-        dictList[i] = dictList.get(i, 0) - 1
-        if dictList[i] == -1:
+            max_thing = stuff
+    for things in L2:
+        dictList[things] = dictList.get(things, 0) - 1
+        if dictList[things] == -1:
             return False
         return (max_thing, max_count, type(max_thing))
