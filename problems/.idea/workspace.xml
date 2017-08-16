@@ -25,6 +25,7 @@
     <SUITE FILE_PATH="coverage/problems$test_ps4a.coverage" NAME="test_ps4a Coverage Results" MODIFIED="1502841969338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Problem Set 4" />
     <SUITE FILE_PATH="coverage/problems$notfixed_debt.coverage" NAME="notfixed-debt Coverage Results" MODIFIED="1502498492523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mini Projects" />
     <SUITE FILE_PATH="coverage/problems$split.coverage" NAME="split Coverage Results" MODIFIED="1502310336564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/problems$ps4b.coverage" NAME="ps4b Coverage Results" MODIFIED="1502845295317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Problem Set 4" />
     <SUITE FILE_PATH="coverage/problems$gcd_recursion.coverage" NAME="gcd-recursion Coverage Results" MODIFIED="1502428850543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice Problems" />
     <SUITE FILE_PATH="coverage/problems$guess_my_number.coverage" NAME="guess-my-number Coverage Results" MODIFIED="1502338887969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Practice Problems" />
     <SUITE FILE_PATH="coverage/problems$debt.coverage" NAME="debt Coverage Results" MODIFIED="1502497161464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mini Projects" />
@@ -60,24 +61,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ps4a.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Problem Set 4/ps4a.py">
+      <file leaf-file-name="ps4b.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problem Set 4/ps4b.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="282" column="37" lean-forward="false" selection-start-line="282" selection-start-column="37" selection-end-line="282" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="2885">
+              <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ps4b.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Problem Set 4/ps4b.py">
+      <file leaf-file-name="ps4a.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Problem Set 4/ps4a.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="4698">
+              <caret line="262" column="29" lean-forward="false" selection-start-line="262" selection-start-column="29" selection-end-line="262" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,8 +124,9 @@
         <option value="$PROJECT_DIR$/Practice Problems/biggest.py" />
         <option value="$PROJECT_DIR$/Mini Projects/hangman/ps3_hangman.py" />
         <option value="$PROJECT_DIR$/Practice Problems/simple-divide.py" />
-        <option value="$PROJECT_DIR$/scratch.py" />
         <option value="$PROJECT_DIR$/Problem Set 4/ps4a.py" />
+        <option value="$PROJECT_DIR$/scratch.py" />
+        <option value="$PROJECT_DIR$/Problem Set 4/ps4b.py" />
       </list>
     </option>
   </component>
@@ -202,8 +204,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ps3_hangman.py" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="problems" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="problems" />
+        <option name="myAddSourceRoots" value="true" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -231,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ps4a">
+  <component name="RunManager" selected="Python.ps4b">
     <configuration name="ps3_hangman (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,24 +261,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="ps3_hangman" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="problems" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/ps3_hangman.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="ps4a" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,6 +275,24 @@
       <module name="problems" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem Set 4/ps4a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="ps4b" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem Set 4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="problems" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem Set 4/ps4b.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,19 +334,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ps3_hangman" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ps3_hangman (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.scratch" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ps4a" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_ps4a" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ps3_hangman (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.scratch" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ps4a" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_ps4a" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ps4b" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ps4a" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_ps4a" />
-        <item index="2" class="java.lang.String" itemvalue="Python.scratch" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ps3_hangman (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ps3_hangman" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ps4b" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ps4a" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_ps4a" />
+        <item index="3" class="java.lang.String" itemvalue="Python.scratch" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ps3_hangman (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +370,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31938326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31938326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16410257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -722,21 +733,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem Set 4/ps4b.py">
+    <entry file="file://$PROJECT_DIR$/Problem Set 4/ps4a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="4698">
+          <caret line="262" column="29" lean-forward="false" selection-start-line="262" selection-start-column="29" selection-end-line="262" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Problem Set 4/ps4a.py">
+    <entry file="file://$PROJECT_DIR$/Problem Set 4/ps4b.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="282" column="37" lean-forward="false" selection-start-line="282" selection-start-column="37" selection-end-line="282" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="2885">
+          <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

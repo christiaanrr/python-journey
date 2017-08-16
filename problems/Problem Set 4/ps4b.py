@@ -68,8 +68,7 @@ def compPlayHand(hand, wordList, n):
     # As long as there are still letters left in the hand:
     while (calculateHandlen(hand) > 0) :
         # Display the hand
-        print("Current Hand: ", end=' ')
-        displayHand(hand)
+        print(displayHand(hand))
         # computer's word
         word = compChooseWord(hand, wordList, n)
         # If the input is a single period:
@@ -124,8 +123,36 @@ def playGame(wordList):
 
     wordList: list (string)
     """
-    # TO DO... <-- Remove this comment when you code this function
-    print("playGame not yet implemented.") # <-- Remove this when you code this function
+    while True:
+        path = str(input('Enter n to deal a new hand, r to replay the last hand, or e to end game: '))
+        if path == 'e':
+            break
+        elif path == 'n':
+            while True:
+                mode = input('Enter u to have yourself play, c to have the computer play: ')
+                if mode == 'u':
+                    hand = dealHand(HAND_SIZE)
+                    playHand(hand, wordList, HAND_SIZE)
+                    break
+                elif mode == 'c':
+                    hand = dealHand(HAND_SIZE)
+                    compPlayHand(hand, wordList, HAND_SIZE)
+                    break
+                else:
+                    print('Invalid command.')
+        elif path == 'r':
+            try:
+                mode = input('Enter u to have yourself play, c to have the computer play: ')
+                if mode == 'u':
+                    playHand(hand, wordList, HAND_SIZE)
+                elif mode == 'c':
+                    compPlayHand(hand, wordList, HAND_SIZE)
+                else:
+                    print('Invalid command.')
+            except:
+                print('You have not played a hand yet. Please play a new hand first!')
+        else:
+            print('Invalid command.')
 
         
 #
@@ -134,5 +161,3 @@ def playGame(wordList):
 if __name__ == '__main__':
     wordList = loadWords()
     playGame(wordList)
-
-
