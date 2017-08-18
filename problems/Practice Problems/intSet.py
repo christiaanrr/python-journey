@@ -44,7 +44,7 @@ class intSet(object):
            Returns a new intSet containing elements that appear in both sets."""
         # Initialize a new intSet
         commonSet = intSet()
-        # Go through the values in this set
+        # Go through tfhe values in this set
         # Check if each value is a member of the other set
         for item in self.vals:
             if set.member(item):
